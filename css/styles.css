@@ -135,6 +135,10 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 
 }
 
+div .img {
+  width: 100%;
+}
+
 .textt {
   margin: 2rem auto;
   text-align: center;
@@ -150,10 +154,24 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   justify-content: center;
   width: 50%;
 }
+.form-contact {
+  margin: 3rem auto;
+  display: flex;
+  justify-content: center;
+}
+
+.formFooter {
+  display: none;
+}
+
+#input_1 {
+ color: #64a19d
+}
 
 .first-img {
   width: 100%;
   height: auto;
+  min-width: 86%;
 }
 
 h1, .h1 {
@@ -196,6 +214,7 @@ h6, .h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  color: #e4e4e4;
 }
 
 abbr[title],
@@ -10188,7 +10207,7 @@ body {
   background-color: #ffffffd9;
 }
 #mainNav .navbar-toggler {
-  font-size: 80%;
+  font-size: 90%;
   padding: 0.75rem;
   color: #64a19d;
   border: 1px solid #64a19d;
@@ -10220,12 +10239,12 @@ body {
   }
   #mainNav .navbar-brand {
     padding: 0.5rem 0;
-    color: rgba(255, 255, 255, 0.7);
+    color: #64a19d;
   }
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.7);
+    color: #64a19d;
   }
   #mainNav .nav-link:hover {
     color: rgba(255, 255, 255, 0.75);
@@ -10300,7 +10319,7 @@ body {
 
 .projects-section .project-text {
   padding: 3rem;
-  font-size: 100%;
+  font-size: 115%;
 }
 @media (min-width: 992px) {
   .projects-section .project-text {
